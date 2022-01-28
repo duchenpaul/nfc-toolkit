@@ -1,5 +1,4 @@
-FROM debian:jessie 
-MAINTAINER Dcylabs <dcylabs@gmail.com>
+FROM debian:bookworm 
 
 RUN apt-get update 
 RUN apt-get install -y git autoconf libtool libpcsclite-dev libusb-1.0-0 libusb-1.0-0-dev libusb-dev make automake pkg-config
