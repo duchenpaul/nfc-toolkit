@@ -11,5 +11,5 @@ docker build -t nfc-toolkit -f Dockerfile .
 
 ### Run
 ```bash
-docker run --rm -h nfc-toolkit -ti --device=/dev/ttyUSB0 -v $(pwd):/workspace dcylabs/nfc-toolkit bash
+docker run --rm -h nfc-toolkit -ti --device=/dev/ttyUSB0 -v $(pwd):/workspace nfc-toolkit bash
 ```
